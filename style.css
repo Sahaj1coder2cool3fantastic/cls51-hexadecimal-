@@ -1,0 +1,35 @@
+        h1 {
+            color : green;
+        }
+
+        .header{
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .grid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .footer{
+            display: flex;
+            justify-content: flex-end;            
+        }
+
+        h2,p{
+            text-align: center;
+        }
+
+        body{
+            background-color:#808080;
+        }
+
+        p{
+            font-size: 20px;
+            border:2px solid;
+            border-color: #0000FF;
+            color: rgb(0,255,0);
+        }
